@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecompilationDemo", "PrecompilationDemo\PrecompilationDemo.csproj", "{010D46F3-4DAD-4BFB-B3E5-D5F371B57BFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80A4D74F-0F8A-4ABA-9D57-D0C381BEEC4B} = {80A4D74F-0F8A-4ABA-9D57-D0C381BEEC4B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecompilationDemo.Module", "PrecompilationDemo.Module\PrecompilationDemo.Module.csproj", "{80A4D74F-0F8A-4ABA-9D57-D0C381BEEC4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{010D46F3-4DAD-4BFB-B3E5-D5F371B57BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{010D46F3-4DAD-4BFB-B3E5-D5F371B57BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{010D46F3-4DAD-4BFB-B3E5-D5F371B57BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A4D74F-0F8A-4ABA-9D57-D0C381BEEC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A4D74F-0F8A-4ABA-9D57-D0C381BEEC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A4D74F-0F8A-4ABA-9D57-D0C381BEEC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A4D74F-0F8A-4ABA-9D57-D0C381BEEC4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
