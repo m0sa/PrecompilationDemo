@@ -7,6 +7,8 @@ namespace PrecompilationDemo.Module
     {
         public void BeforeCompile(BeforeCompileContext context)
         {
+            // NOTE: in case you need to debug your compilation module do:
+            // System.Diagnostics.Debugger.Launch();
             foreach (var syntaxTree in context.Compilation.SyntaxTrees)
             {
                 var model = context.Compilation.GetSemanticModel(syntaxTree);
