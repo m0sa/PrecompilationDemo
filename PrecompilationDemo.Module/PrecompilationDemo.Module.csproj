@@ -94,6 +94,7 @@
   <ItemGroup>
     <Compile Include="PrecompilationDemoModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringBuilderInterpolationOptimizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
